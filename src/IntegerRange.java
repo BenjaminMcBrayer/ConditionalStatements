@@ -50,9 +50,8 @@ public class IntegerRange {
 		} while (playAgain.equalsIgnoreCase("y"));
 		
 		// End program officially if user enters anything other than "Y" or "y."
-		if (!playAgain.equalsIgnoreCase("y")) {
-			System.out.println("Goodbye, " + userInfo + "!");
-		} 
+		System.out.println("Goodbye, " + userInfo + "!");
+ 
 		scnr.close();
 	}
 }
